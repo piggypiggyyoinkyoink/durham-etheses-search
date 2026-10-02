@@ -35,6 +35,7 @@ Note 2: Due to context limits, the system currently only allows use of a single 
 - `python -m venv .venv`
 - MacOS/Linux: `source .venv/bin/activate`, Windows: `./.venv/Scripts/activate`
 - `pip install -r requirements.txt`
+Note: If your device does not have a CUDA-capable GPU, use `requirements_minimum.txt` instead. CUDA is *highly recommended* for building the model index files.
 
 #### Environment Variables
 Create a file in the `python` folder called `.env` and insert the following lines:
